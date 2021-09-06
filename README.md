@@ -58,3 +58,14 @@ Possible arguments:
 --save_model        option to save the model (default: False)
 ```
 
+## Citation
+This repository has been developed as part of the following paper. We appreciate it if you would please cite the following paper if you found the library useful for your work:
+
+```text
+@article{krishnapriyan2021characterizing,
+  title={Characterizing Possible Failure Modes in Physics-Informed Neural Networks},
+  author={Krishnapriyan, Aditi and Gholami, Amir and Zhe, Shandian and Kirby, Mike and Mahoney, Michael W},
+  journal={arxiv, 2109.01050},
+  year={2021}
+}
+```

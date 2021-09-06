@@ -46,13 +46,15 @@ Possible arguments:
 ```
 
 ## Citation
-This repository has been developed as part of the following paper. We appreciate it if you would please cite the following paper if you found the library useful for your work:
+This repository has been developed as part of the following paper. We would appreciate it if you would please cite the following paper if you found the library useful for your work:
 
 ```text
 @article{krishnapriyan2021characterizing,
-  title={Characterizing Possible Failure Modes in Physics-Informed Neural Networks},
-  author={Krishnapriyan, Aditi and Gholami, Amir and Zhe, Shandian and Kirby, Mike and Mahoney, Michael W},
-  journal={arxiv, 2109.01050},
-  year={2021}
+      title={Characterizing possible failure modes in physics-informed neural networks},
+      author={Aditi S. Krishnapriyan and Amir Gholami and Shandian Zhe and Robert M. Kirby and Michael W. Mahoney},
+      year={2021},
+      eprint={2109.01050},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```

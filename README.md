@@ -4,19 +4,6 @@ This repository contains the PyTorch source code for the experiments in the manu
 
 [Aditi S. Krishnapriyan, Amir Gholami, Shandian Zhe, Robert M. Kirby, Michael W. Mahoney. Characterizing possible failure modes in physics-informed neural networks.](https://arxiv.org/abs/2109.01050)
 
-If you find this repository helpful for your work, please consider citing our paper:
-
-```
-@misc{krishnapriyan2021characterizing,
-      title={Characterizing possible failure modes in physics-informed neural networks}, 
-      author={Aditi S. Krishnapriyan and Amir Gholami and Shandian Zhe and Robert M. Kirby and Michael W. Mahoney},
-      year={2021},
-      eprint={2109.01050},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
-
 ## Introduction
 
 Recent work in scientific machine learning has developed so-called physics-informed neural network (PINN) models. The typical approach is to incorporate physical domain knowledge as soft constraints on an empirical loss function and use existing machine learning methodologies to train the model. We demonstrate that, while existing PINN methodologies can learn good models for relatively trivial problems, they can easily fail to learn relevant physical phenomena even for simple PDEs. In particular, we analyze several distinct situations of widespread physical interest, including learning differential equations with convection, reaction, and diffusion operators. We provide evidence that the soft regularization in PINNs, which involves differential operators, can introduce a number of subtle problems, including making the problem ill-conditioned. Importantly, we show that these possible failure modes are not due to the lack of expressivity in the NN architecture, but that the PINN's setup makes the loss landscape very hard to optimize. We then describe two promising solutions to address these failure modes. The first approach is to use curriculum regularization, where the PINN's loss term starts from a simple PDE regularization, and becomes progressively more complex as the NN gets trained. The second approach is to pose the problem as a sequence-to-sequence learning task, rather than learning to predict the entire space-time at once. Extensive testing shows that we can achieve up to 1-2 orders of magnitude lower error with these methods as compared to regular PINN training.

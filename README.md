@@ -2,7 +2,7 @@
 
 This repository contains the PyTorch source code for the experiments in the manuscript:
 
-[Aditi S. Krishnapriyan, Amir Gholami, Shandian Zhe, Robert M. Kirby, Michael W. Mahoney. Characterizing possible failure modes in physics-informed neural networks.](https://arxiv.org/abs/2109.01050)
+[Aditi S. Krishnapriyan, Amir Gholami, Shandian Zhe, Robert M. Kirby, Michael W. Mahoney. Characterizing possible failure modes in physics-informed neural networks.](https://arxiv.org/abs/2109.01050), Neural Information Processing Systems (NeurIPS) 2021.
 
 ## Introduction
 
@@ -50,11 +50,10 @@ This repository has been developed as part of the following paper. We would appr
 
 ```text
 @article{krishnapriyan2021characterizing,
-      title={Characterizing possible failure modes in physics-informed neural networks},
-      author={Aditi S. Krishnapriyan and Amir Gholami and Shandian Zhe and Robert M. Kirby and Michael W. Mahoney},
-      year={2021},
-      eprint={2109.01050},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+  title={Characterizing possible failure modes in physics-informed neural networks},
+  author={Krishnapriyan, Aditi S. and Gholami, Amir and Zhe, Shandian and Kirby, Robert and Mahoney, Michael W},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  year={2021}
 }
 ```
